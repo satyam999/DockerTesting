@@ -11,7 +11,7 @@ public class DockerTestingApplication {
 
 	@GetMapping("/dockerMessgae")
 	public String getDockerMessgae() {
-		return "Docker Testing";
+		return "Docker Testing1";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DockerTestingApplication.class, args);
