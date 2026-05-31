@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class DockerTesting1Application {
+public class DockerTestingApplication {
 
 	@GetMapping("/dockerMessgae")
 	public String getDockerMessgae() {
 		return "Docker Testing";
 	}
 	public static void main(String[] args) {
-		SpringApplication.run(DockerTesting1Application.class, args);
+		SpringApplication.run(DockerTestingApplication.class, args);
 	}
 
 }
