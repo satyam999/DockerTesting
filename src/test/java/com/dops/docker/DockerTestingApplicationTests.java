@@ -8,6 +8,8 @@ class DockerTestingApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("Hi Testing");
+		
 	}
 
 }
